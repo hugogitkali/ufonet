@@ -26,7 +26,7 @@ setup(
     url='https://ufonet.03c8.net/',
     long_description=open('docs/README.txt').read(),
     packages=find_packages(),
-    install_requires=['GeoIP >= 1.3.2', 'python-geoip >= 1.2', 'pygeoip >= 0.3.2', 'requests >= 2.21.0', 'pycrypto >= 2.6.1', 'pycurl >= 7.43.0', 'whois >= 0.7', 'scapy-python3 >= 0.20'],
+    install_requires=['GeoIP >= 1.3.2', 'python-geoip >= 1.2', 'pygeoip >= 0.3.2', 'requests >= 2.21.0', 'pycryptodome >= 3.20.0', 'pycurl >= 7.43.0', 'whois >= 0.7', 'scapy-python3 >= 0.20'],
     include_package_data=True,
     package_data={
         'core': ['js/*.css', 'js/*.js', 'js/leaflet/*.css', 'js/leaflet/*.js', 'js/cluster/*', 'txt/*.txt', 'images/crew/*', 'images/aliens/*', 'images/*.txt'],
